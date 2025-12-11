@@ -4,7 +4,8 @@
 
 body {
   font-family: 'Roboto Mono', monospace;
- // background-color: #191919;
+  font-color: white;
+  background-color: rgb(25, 25, 25);
 }
 
 #root {
@@ -15,28 +16,28 @@ body {
 
 button,
 button:active {
-  background-color: rgb(232,36,19);
+  background-color: rgb(227, 20, 38);
   border: none;
   width: 42px;
   height: 40px;
   border-radius: 100%;
   text-align: center;
-  box-shadow: 0.2em 0.2em rgb(194, 91, 44);
-  -webkit-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
-  -moz-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
+  box-shadow: 0.3em 0.3em rgb(173, 0, 14);
+  -webkit-box-shadow: 0.3em 0.3em rgb(173, 0, 14);
+  -moz-box-shadow: 0.3em 0.3em rgb(173, 0, 14);
 }
 
 button:focus {
-  translate: 0.2em 0.2em;
-  box-shadow: 0.2em 0.2em rgb(120, 0, 0) inset;
-  -webkit-box-shadow: 0.3em 0.3em rgb(120, 0, 0) inset;
-  -moz-box-shadow: 0.3em 0.3em rgb(120, 0, 0) inset;
+  translate: 0.3em 0.3em;
+  box-shadow: 0.3em 0.3em rgb(173, 0, 14) inset;
+  -webkit-box-shadow: 0.3em 0.3em rgb(173, 0, 14) inset;
+  -moz-box-shadow: 0.3em 0.3em rgb(173, 0, 14) inset;
 }
 
 /* Clock Body */
 
 .clock-container {
-  background-color: rgb(20, 20, 20); 
+  background-color: rgb(224, 20, 37); 
   width: 350px;
   border-radius: 20px;
   padding: 30px;
@@ -60,6 +61,7 @@ button:focus {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  color: white;
 }
 
 #timer-label {
@@ -102,7 +104,7 @@ button:focus {
 .session-container {
   text-align: center;
 /*   display: inline-block; */
-  border: 2px solid rgb(52, 43, 39);
+  border: 2px solid rgb(173, 0, 14);
   padding: 10px;
   border-radius: 10px;
   width: 48%;
