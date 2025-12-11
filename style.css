@@ -48,10 +48,10 @@ button:focus {
 #time-left {
   font-size: 70px;
   text-align: center;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   padding: 20px;
   border-radius: 20px;
-  box-shadow: 3px 3px rgb(23, 23, 23) inset;
+  box-shadow: 3px 3px rgb(168, 9, 20) inset;
 }
 
 #display-controls {
@@ -60,14 +60,14 @@ button:focus {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 #timer-label {
   font-size: 25px;
   text-align: center;
   padding-top: 2px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   border-radius: 10px;
   height: 40px;
   flex: 2;
